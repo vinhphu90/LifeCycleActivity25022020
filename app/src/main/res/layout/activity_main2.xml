@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#2196F3"
-    tools:context=".MainActivity">
+    android:background="#f20"
+    tools:context=".Main2Activity">
+<Button
+android:text="Navigate Screen 1"
+android:id="@+id/buttonScreen2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/buttonScreen1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Navigate to Screen 2"/>
-</RelativeLayout>
+    </RelativeLayout>
